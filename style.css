@@ -1,0 +1,194 @@
+* {
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+background:#FFFFFF;
+color:#1B1C21;
+}
+
+img{
+max-width:100%;
+display:block;
+}
+
+button{
+border:none;
+background:none;
+cursor:pointer;
+}
+
+
+/* ===== LAYOUT ===== */
+
+.layout{
+display:flex;
+flex-direction:column;
+min-height:100vh;
+}
+
+
+/* ===== HEADER ===== */
+
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:16px;
+background:white;
+border-bottom:2px solid #EAEAEA;
+}
+
+.header__left,
+.header__right{
+display:flex;
+align-items:center;
+gap:16px;
+}
+
+.header__logo{
+height:32px;
+}
+
+.header__icon img,
+.header__burger img{
+width:24px;
+height:24px;
+}
+
+
+/* ===== SIDEBAR ===== */
+
+.sidebar{
+display:none;
+background:white;
+padding:24px;
+}
+
+.sidebar__logo{
+margin-bottom:24px;
+}
+
+.sidebar__menu{
+display:flex;
+flex-direction:column;
+gap:18px;
+}
+
+.sidebar__item{
+text-decoration:none;
+color:#1B1C21;
+font-size:16px;
+}
+
+.sidebar__item--active{
+color:#41F6D7;
+}
+
+
+/* ===== MAIN ===== */
+
+.main{
+padding:20px;
+}
+
+
+/* ===== SERVICES ===== */
+
+.services__title{
+font-size:28px;
+font-weight:bold;
+margin-bottom:20px;
+}
+
+
+/* ===== TABS ===== */
+
+.services__tabs{
+display:flex;
+gap:12px;
+overflow-x:auto;
+margin-bottom:24px;
+}
+
+.services__tab{
+padding:8px 16px;
+border-radius:6px;
+background:#F8F8F8;
+white-space:nowrap;
+font-size:14px;
+}
+
+.services__tab--active{
+border:2px solid #41F6D7;
+background:white;
+}
+
+
+/* ===== SERVICES CONTENT ===== */
+
+.services__content{
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+
+.services__text p{
+margin-bottom:12px;
+line-height:1.5;
+font-size:14px;
+}
+
+.services__read-more{
+text-decoration:none;
+font-weight:bold;
+color:#1B1C21;
+}
+
+
+/* ===== TABLET ===== */
+
+@media (min-width:768px){
+
+.services__content{
+flex-direction:row;
+gap:32px;
+}
+
+.services__text{
+flex:1;
+}
+
+.services__image{
+flex:1;
+}
+
+}
+
+
+/* ===== DESKTOP ===== */
+
+@media (min-width:1120px){
+
+.layout{
+flex-direction:row;
+}
+
+.sidebar{
+display:block;
+width:260px;
+min-height:100vh;
+}
+
+.main{
+flex:1;
+padding:40px;
+}
+
+.header{
+display:none;
+}
+}
