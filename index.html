@@ -10,7 +10,11 @@
 
 <body>
     <div class="layout">
-        <header class="header">
+
+        
+        <!-- main content -->
+        <main class="main">
+            <header class="header">
             <div class="header__left">
                 <button class="header__burger">
                     <img src="Burger Icon Container.svg" alt="Menu">
@@ -18,13 +22,13 @@
                 <img class="header__logo" src="Logo Group.svg" alt="Logo">
             </div>
             <div class="header__right">
-                <button class="header__icon">
+                <button class="header__icon Icon-call">
                     <img src="Call Icon Container.svg" alt="call">
                 </button>
-                <button class="header__icon">
+                <button class="header__icon Icon-chat">
                     <img src="Chat Icon Container.svg" alt="chat">
                 </button>
-                <button class="header__icon">
+                <button class="header__icon Icon-profile">
                     <img src="Profile Icon Container.svg" alt="profile">
                 </button>
                 <button class="header__icon">
@@ -34,31 +38,23 @@
                     <img src="Check Status Icon Container.svg" alt="settings">
                 </button>
             </div>
+            <div class="header__desktop">
+                <h1 class="header__title">Services and support</h1>
+
+                <div class="header__actions">
+                    <button class="header__button">
+                        <span>Repair status</span>
+                        <img src="Repair Icon Container.svg" alt="">
+                    </button>
+
+                    <button class="header__button">
+                        <span>Repair status</span>
+                        <img src="Check Status Icon Container.svg" alt="">
+                    </button>
+
+                </div>
+            </div>
         </header>
-        <!-- sidebar -->
-
-        <aside class="sidebar">
-
-            
-            <nav class="sidebar__menu">
-
-                <a class="sidebar__item sidebar__item--active" href="#">
-                    Services and support
-                </a>
-
-                <a class="sidebar__item" href="#">Equipment repair</a>
-                <a class="sidebar__item" href="#">Corporate clients</a>
-                <a class="sidebar__item" href="#">Equipment sellers</a>
-                <a class="sidebar__item" href="#">Partners</a>
-                <a class="sidebar__item" href="#">Manufacturers</a>
-                <a class="sidebar__item" href="#">Service centers</a>
-                <a class="sidebar__item" href="#">Contacts</a>
-
-            </nav>
-
-        </aside>
-        <!-- main content -->
-        <main class="main">
             <section class="services">
                 <h1 class="service__title">Services and Support</h1>
 
@@ -73,10 +69,11 @@
                 <div class="services__content">
                     <div class="services__text">
                         <p>we are an authorized service centre for Dell equipment repairs. only with us can you repair
-                            your Dell ;laptop with the official manufacturer's warranty</p>
+                            your Dell laptop with the official manufacturer's warranty</p>
                         <p>We have been successfully operating since 1992 and have earned a reputation as a reliable
                             partner, as evidenced by our large number of loyal customers. </p>
-                        <a class="services__read-more" href="#">Read more</a>
+                        <a class="services__read-more">
+                            <img src="Expand Icon Container.svg" alt="">Read more</a>
                     </div>
                     <div class="services__image">
                         <img src="Image Container.svg">
