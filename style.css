@@ -78,9 +78,9 @@ height: 24px;
 }
 
 /* for mobile hide some icons */
-.header__icon-call,
-.header__icon-chat,
-.header__icon-profile {
+.Icon-call,
+.Icon-chat,
+.Icon-profile {
     display: none;
 
 
@@ -111,9 +111,9 @@ margin-left: 16px;
 
 /* for tablet */
 @media (min-width:768px) {
-.header__icon-call,
-.header__icon-chat,
-.header__icon-profile {
+.Icon-call,
+.Icon-chat,
+.Icon-profile {
     display: inline-flex;
 }
 }
