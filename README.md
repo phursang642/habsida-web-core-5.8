@@ -1,5 +1,7 @@
 # Services and Support Layout
 
+## live demo [click here to ciew project] /(https://phursang642.github.io/habsida-web-core-5.8/)
+
 This project is a responsive web layout built using HTML and CSS based on a Figma design.
 
 ## Features
@@ -12,13 +14,13 @@ This project is a responsive web layout built using HTML and CSS based on a Figm
 - BEM methodology for class naming
 - Flexbox layout
 
-## 📱 Responsive Design
+##  Responsive Design
 
 - Mobile: 320px
 - Tablet: 768px
 - Desktop: 1120px+
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - HTML5
 - CSS3 (Flexbox, Media Queries)
